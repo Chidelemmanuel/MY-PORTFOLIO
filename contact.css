@@ -1,0 +1,116 @@
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bolder;
+    width: 700px;
+    color: #191919;
+    padding-top: 20px;
+    /* margin: 50px 30px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 120px;
+}
+
+#icon {
+    font-size: 30px;
+    position: relative;
+    top: 1px;
+    color: red
+}
+
+.text {
+    position: relative;
+    top: -42px;
+    left: 74px;
+    margin-bottom: 0px;
+}
+
+.para {
+    position: relative;
+    top: -38px;
+    left: 95px;
+}
+
+.email {
+    position: relative;
+    top: -42px;
+    left: 74px;
+    margin-bottom: 0px;
+}
+
+.mail {
+    position: relative;
+    top: -38px;
+    left: 175px;
+}
+
+.location {
+    position: relative;
+    top: -42px;
+    left: 74px;
+    margin-bottom: 0px;
+}
+
+.atani {
+    position: relative;
+    top: -38px;
+    left: 145px;
+}
+
+form {
+    padding: auto;
+    margin: auto;
+    width: 25rem;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bolder ;
+}
+
+textarea {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+center {
+    margin-left: 200px;
+    padding: auto;
+}
+
+button {
+    background: red;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}

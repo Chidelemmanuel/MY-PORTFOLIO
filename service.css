@@ -1,0 +1,48 @@
+section {
+    width: 100%; 
+    padding: 15px;
+    margin: 0px;
+    background-color: #242121; 
+    height: 100%;
+    color: #fcfc;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+p {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    margin: 20px 20px;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 10px;
+    color: red;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
