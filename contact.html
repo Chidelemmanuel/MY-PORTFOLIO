@@ -9,8 +9,21 @@
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
+    <nav> 
+        <h2 class="logo">Port<span>folio</span></h2>
+        <ul> 
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="#skill">SKILLS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+        <a href="#" class="btn" id="subscribe">Subscribe</a>
+    </nav>
+
     <div class="contact-me">
-        <h1>Contact Me</h1>
+        <h1>Contact Me</h1>             
         <i class="fa-solid fa-phone" id="icon"></i>
 
         <h3 class="text">Call Me</h3>
@@ -30,9 +43,25 @@
                 <input type="email" placeholder="Email">
                 <textarea name="message" rows="10" cols="30" placeholder="Enter Your Message"></textarea>
                 <br>
-                <button>Send</button>
+                <button class="button">Send</button>
             </form>
-        </center>
+        </center> 
+
+        <div class="backdrop"></div>
+        <div class="modal">
+
+            <p>Thank You</p>
+            
+            <section>
+                <img src="./Good.png" alt="">
+
+                <a href="index.html">
+                    <button class="last-btn">OK!</button>
+                </a>
+
+            </section>     
+
+        </div>
     </div>
 </body>
 </html>
