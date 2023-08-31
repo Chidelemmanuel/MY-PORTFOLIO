@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap');
+
 nav {
     display: flex;
     align-items: center;
@@ -20,6 +24,7 @@ span {
 }
 
 nav ul li {
+    font-family: "playfair Display", serif;
     display: inline-block;
     list-style-type: none;
     padding: 10px 25px;
@@ -90,25 +95,6 @@ h1 {
     margin-left: 120px;
 }
 
-#icon {
-    font-size: 30px;
-    position: relative;
-    top: 1px;
-    color: red
-}
-
-.text {
-    position: relative;
-    top: -42px;
-    left: 74px;
-    margin-bottom: 0px;
-}
-
-.para {
-    position: relative;
-    top: -38px;
-    left: 95px;
-}
 
 .email {
     position: relative;
@@ -136,55 +122,6 @@ h1 {
     left: 145px;
 }
 
-form {
-    padding: auto;
-    margin: auto;
-    width: 25rem;
-}
-
-input {
-    width: 300px;
-    height: 30px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    font-weight: bolder ;
-}
-
-textarea {
-    width: 300px;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    font-weight: bolder;
-}
-
-center {
-    margin-left: 200px;
-    padding: auto;
-}
-
-button {
-    background: red;
-    width: 120px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 15px;
-    margin-left: 200px;
-    margin-top: 50px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: transparent;
-    border: 2px solid red;
-    color: red;
-}
 
 .backdrop {
     position: fixed;

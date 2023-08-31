@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&display=swap');
+
 * {
-    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,20 +13,22 @@ html {
 }
 
 .portfolio {
+    font-family: "Playfair Display", serif;
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
-    background: black;
+    background: #000;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 15px;
     padding-left: 8%;
     padding-right: 8%;
+    border-bottom: 1px solid #ccc;
 }
 
 .logo {
@@ -42,6 +47,7 @@ nav ul li {
     display: inline-block;
     list-style-type: none;
     padding: 10px 25px;
+    font-size: 18px;
 }
 
 nav ul li a {  
@@ -59,11 +65,13 @@ nav ul li a:hover {
 }
 
 .btn {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
     background-color: red;
     color: #fff;
     text-decoration: none;
     border: 2px solid transparent;
-    font-weight: bolder;
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
@@ -96,7 +104,7 @@ nav ul li a:hover {
 
 .content > img {
     position: relative;
-    right: -900px;
+    right: -800px;
     top: -620px;
     border-radius: 50%;
     height: 10%;
@@ -105,6 +113,7 @@ nav ul li a:hover {
 }
 
 h1 {
+    font-family: "Playfair Display", serif;
     color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
@@ -126,7 +135,8 @@ h4 {
     width: 100%; 
     padding: 100px 0px;
     background-color: #242121; 
-    height: 100%
+    height: 100%;
+    margin-top: 0;
 }
 
 .about img{
@@ -140,7 +150,7 @@ h4 {
 
 .main {
     width: 1130px;
-    max-width: 95%;
+    /* max-width: 95%; */
     margin: 0px auto;
     display: flex;
     justify-content: space-around;
@@ -152,9 +162,11 @@ h4 {
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
 }
 
 .about-text h5 {
+    font-family: "Playfair Display", serif;
     color: #fff;
     letter-spacing: 2px;
     font-size: 22px;
@@ -172,6 +184,7 @@ h4 {
 }
 
 button {
+    font-family: "playfair Display", serif;
     background-color: red;
     color: #fff;
     text-decoration: none;
@@ -180,6 +193,8 @@ button {
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
+    float: left;
+    /* margin-right: -30px; */
 }
 
 button:hover {
@@ -191,10 +206,11 @@ button:hover {
 .service {
     background: #101010;
     width: 100%;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .title {
+    font-family: "Playfair Display", serif;
     color: #fff;
     font-size: 75px;
     width: 1130px;
@@ -230,6 +246,7 @@ button:hover {
 }
 
 h5 {
+    font-family: "Playfair Display", serif;
     color: #fff;
     font-size: 23px;
     margin-bottom: 15px;
@@ -243,6 +260,7 @@ h5 {
 }
 
 .card .button, .button-two {
+    font-family: "playfair Display", serif;
     background-color: red;
     color: #fff;
     text-decoration: none;
@@ -250,7 +268,7 @@ h5 {
     font-weight: bolder;
     padding: 9px 22px;
     border-radius: 30px;
-    /* transition: .4s; */
+    transition: .4s;
 }
 
 .card .button:hover {
@@ -259,33 +277,169 @@ h5 {
     cursor: pointer;
 }
 
-.contact-me {
+.contact {
     width: 100%;
-    height: 290px;
     background: #191919;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 
-.contact-me p {
+.contact h1 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#first {
+    display: flex;
+    position: relative;
+    top: -12px;
+    left: -90px;
+    margin-bottom: 0px;
+}
+
+#para {
+    position: relative;
+    top: -12px;
+    left: -90px;
+}
+
+#para2 {
+    position: relative;
+    top: -15px;
+    left: -25px;
+}
+
+#second {
+    display: flex;
+    position: relative;
+    top: -12px;
+    left: -23px;
+    margin-bottom: 0px;
+}
+
+#second .text {
+    position: relative;
+    top: -1px;
+}
+
+.details {
+    display: flex;
+    column-gap: 20px;
+}
+
+#icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: red
+}
+
+h3 {
+    margin-top: 5px;
+    font-family: "playfair Display", serif;
+}
+
+.para {
+    color: #ccc;
+    font-family: "playfair Display", serif;
+    font-size: 18px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+button {
+    font-family: "playfair Display", serif;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: #fff;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.last p {
+    font-family: "playfair Display", serif;
     color: #fff;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-.contact-me, .button-two {
+.button-two {
+    width: 100px;
     color: #fff;
     text-decoration: none;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     font-weight: bolder;
-    padding: 13px 30px;
+    padding: 13px 3px;
     transition: .4s;   
+    text-align: center;
 }
 
-.contact-me .button-two:hover {
+.button-two:hover {
     background-color: transparent;
     border: 2px solid red;
     cursor: pointer;
@@ -303,6 +457,7 @@ footer {
 }
 
 footer p:nth-child(1) {
+    font-family: "Playfair Display", serif;
     font-size: 30px;
     color: #fff;
     margin-bottom: 20px;
